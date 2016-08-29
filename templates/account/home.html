@@ -1,0 +1,23 @@
+{% extends "main.html" %}
+
+{% block title %} Hello User..{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <h2>Your Recipes</h2>
+        </div>
+        <div class="row">
+            <a href="/account/new-recipe">
+                <div class="col-lg-3 new-recipe">
+                    <div class="post-new-recipe">
+                        <i class="fa fa-plus fa-5x"></i>
+                        <h3>Post new recipe</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
